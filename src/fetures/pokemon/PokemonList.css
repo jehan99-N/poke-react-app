@@ -1,0 +1,35 @@
+.pokemon-title {
+  background: blue;
+  color: white;
+  padding: 11px 12px;
+  font-size: 1.2rem;
+}
+
+.pokemon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon-list li {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s;
+  display: flex;         
+  align-items: center;    
+  gap: 12px;              
+}
+
+
+.pokemon-list li:hover {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.pokemon-list-container {
+    width: 400px;
+  height: 100vh; /* يأخذ ارتفاع الصفحة بالكامل */
+  display: flex;
+  flex-direction: column;
+}
